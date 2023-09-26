@@ -1,0 +1,22 @@
+body {
+    display: grid;
+    width: 100%;
+    grid-template-areas:    "entete"
+                            "principale "
+                            "pied";
+    grid-template-rows: 200px auto 200px;
+    grid-template-columns: 1fr;
+    border: 1px solid #808080   ;
+}
+
+header {
+    grid-area: entete;
+ }
+
+section {
+    grid-area: principale;
+}
+
+footer {
+    grid-area: pied;
+}
