@@ -6,7 +6,6 @@ body {
                             "pied";
     grid-template-rows: 200px auto 200px;
     grid-template-columns: 1fr;
-    border: 1px solid #808080   ;
 }
 
 header {
